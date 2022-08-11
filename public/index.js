@@ -26,7 +26,3 @@ function renderBook(book) {
 }
 
 main()
-//Get list of books
-
-//Display a list of titles to the admin.
-//Not sure what is meant by this. ASSUMING they want a list of titles on the book List page besides the cards
