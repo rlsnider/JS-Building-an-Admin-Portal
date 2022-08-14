@@ -3,15 +3,16 @@
  async function getMyBookList(){
    let response = await fetch('http://localhost:3001/listBooks')
    let books = await response.json()
-  books.forEach(()=>{
-    console.log(books.title)
-  })
+   console.log(books)  //get list of books in console full array, undefined
+  console.log(books.title)//undefined
  }
-  
+
+function titleList()
+
+
+
 
 getMyBookList()
-console.log('Am I getting through to admin.html?')
-
 //2. Display a list of book titles to the admin. How do we name this array so we can iterate over it?
 //if the array has no assigned var, how do we go into it? Everything I try seems to come back as "undefined". 
 
